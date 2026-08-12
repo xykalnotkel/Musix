@@ -1,0 +1,8 @@
+# Render.com config (opsional — auto-deploy)
+services:
+  - type: web
+    name: musix-api
+    runtime: node
+    plan: free
+    buildCommand: node tools/build_api_data.js
+    startCommand: node server.js

@@ -1,0 +1,15 @@
+{
+  "name": "tiktok-music-demo",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "@tobyg74/tiktok-api-dl": "^1.3.7"
+  }
+}

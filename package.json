@@ -1,0 +1,14 @@
+{
+  "name": "musix-api",
+  "version": "1.0.0",
+  "description": "REST API TikTok Sound Player — untuk Flutter (sound story otomatis) & web player",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "build": "node tools/build_api_data.js"
+  },
+  "engines": {
+    "node": ">=18"
+  },
+  "license": "MIT"
+}
